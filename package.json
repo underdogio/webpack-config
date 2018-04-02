@@ -1,0 +1,35 @@
+{
+  "name": "@underdogio/webpack-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "dependencies": {
+    "@babel/core": "7.0.0-beta.43",
+    "@babel/plugin-proposal-class-properties": "7.0.0-beta.43",
+    "@babel/plugin-proposal-decorators": "7.0.0-beta.43",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.43",
+    "@babel/preset-env": "7.0.0-beta.43",
+    "@babel/preset-react": "7.0.0-beta.43",
+    "autoprefixer": "8.2.0",
+    "babel-eslint": "8.2.2",
+    "babel-loader": "^8.0.0-beta",
+    "css-loader": "0.28.11",
+    "eslint": "4.19.1",
+    "eslint-config-underdog": "3.2.0",
+    "eslint-loader": "2.0.0",
+    "eslint-plugin-react": "7.7.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "file-loader": "1.1.11",
+    "image-webpack-loader": "4.2.0",
+    "node-sass": "4.8.3",
+    "postcss-loader": "2.1.3",
+    "sass-loader": "6.0.7",
+    "style-loader": "0.20.3",
+    "webpack": "4.4.1",
+    "webpack-merge": "4.1.2",
+    "webpack-node-externals": "1.7.2"
+  }
+}

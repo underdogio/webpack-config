@@ -1,0 +1,6 @@
+{
+  "extends": "underdog/es6",
+  "rules": {
+    "no-process-env": "off"
+  }
+}
