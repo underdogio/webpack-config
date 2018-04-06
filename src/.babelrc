@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "targets": {
+        "browsers": [
+          "last 2 versions"
+        ],
+        "node": "current"
+      }
+    }],
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-decorators",
+    ["@babel/plugin-proposal-class-properties", {
+      "loose": true
+    }],
+    "@babel/plugin-proposal-object-rest-spread"
+  ]
+}

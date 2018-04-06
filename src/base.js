@@ -1,4 +1,8 @@
+const {readFileSync} = require('fs');
+const {join} = require('path');
 const eslintConfig = require('./eslint-config');
+
+const babelConfig = JSON.parse(readFileSync(join(__dirname, '.babelrc')).toString());
 
 module.exports = {
   output: {
@@ -10,28 +14,9 @@ module.exports = {
       exclude: /node_modules/,
       use: [{
         loader: 'babel-loader',
-        options: {
-          cacheDirectory: true,
-          // Define default presets and plugins. These can be overriden with a local .babelrc file.
-          presets: [
-            ['@babel/env', {
-              targets: {
-                browsers: [
-                  'last 2 versions'
-                ],
-                node: 'current'
-              }
-            }],
-            '@babel/react'
-          ],
-          plugins: [
-            '@babel/plugin-proposal-decorators',
-            ['@babel/plugin-proposal-class-properties', {
-              loose: true
-            }],
-            '@babel/plugin-proposal-object-rest-spread'
-          ]
-        }
+        options: Object.assign({}, babelConfig, {
+          cacheDirectory: true
+        })
       }, {
         loader: 'eslint-loader',
         options: eslintConfig
