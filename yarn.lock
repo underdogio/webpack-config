@@ -5865,6 +5865,12 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
+source-map-support@0.4.11:
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.11.tgz#647f939978b38535909530885303daf23279f322"
+  dependencies:
+    source-map "^0.5.3"
+
 source-map-url@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/source-map-url/-/source-map-url-0.4.0.tgz#3e935d7ddd73631b97659956d55128e87b5084a3"
@@ -6647,6 +6653,12 @@ webpack-merge@4.1.2:
 webpack-node-externals@1.7.2:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/webpack-node-externals/-/webpack-node-externals-1.7.2.tgz#6e1ee79ac67c070402ba700ef033a9b8d52ac4e3"
+
+webpack-source-map-support@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/webpack-source-map-support/-/webpack-source-map-support-2.0.1.tgz#6c9b9f782ae84f86fb4b2f7032a298e63e8ad43d"
+  dependencies:
+    source-map-support "0.4.11"
 
 webpack-sources@^1.0.1, webpack-sources@^1.1.0:
   version "1.1.0"
