@@ -3,7 +3,7 @@ const HtmlPlugin = require('html-webpack-plugin');
 const {join} = require('path');
 const merge = require('webpack-merge');
 
-const baseConfig = require('../src');
+const baseConfig = require('../lib');
 
 const overrides = {
   output: {
