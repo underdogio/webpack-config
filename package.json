@@ -2,7 +2,7 @@
   "name": "@underdogio/webpack-config",
   "version": "0.3.0",
   "license": "MIT",
-  "main": "./index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "eslint ."
   },
