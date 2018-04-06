@@ -1,8 +1,8 @@
 const {readFileSync} = require('fs');
 const {join} = require('path');
-const eslintConfig = require('./eslint-config');
+const eslintConfig = require('../config/eslint');
 
-const babelConfig = JSON.parse(readFileSync(join(__dirname, '.babelrc')).toString());
+const babelConfig = JSON.parse(readFileSync(join(__dirname, '..', 'config/.babelrc')).toString());
 
 module.exports = {
   output: {
