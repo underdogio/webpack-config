@@ -1,4 +1,4 @@
-import './styles.scss';
+import './styles/app.scss';
 import React, {Component} from 'react';
 import logo from './logo.svg';
 
