@@ -3,7 +3,7 @@
     ["@babel/env", {
       "targets": {
         "browsers": [
-          "last 2 versions"
+          ">0.5%"
         ],
         "node": "current"
       }
