@@ -38,6 +38,8 @@ You can take a look at an example setup for a server-rendered React app [here](h
 
 ## Installing
 
+`webpack` is specified as a peer dependency, so you will have to install that as well.
+
 ```bash
-yarn add @underdogio/webpack-config
+yarn add webpack @underdogio/webpack-config -D
 ```
