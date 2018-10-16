@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "build": "./node_modules/.bin/webpack",
     "build/watch": "npm run build -- --watch",
     "start": "node dist/server",
     "start/watch": "nodemon dist/server --watch dist/server",
