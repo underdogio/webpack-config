@@ -34,6 +34,6 @@
     "webpack-source-map-support": "2.0.1"
   },
   "peerDependencies": {
-    "webpack": "4.5.0"
+    "webpack": "4.20.0"
   }
 }
