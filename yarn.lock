@@ -3067,12 +3067,12 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-underdog@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-underdog/-/eslint-config-underdog-3.2.0.tgz#a2d7f459112f07389624dc82e4930ded5b9bad2d"
-  integrity sha512-7eRYPTAhyCaHpzrJCsdMNZOL6ETOfPe9Jx+F7xo9xNis6AY2Ga33wuapeJ5d1RQPGpuhGySy52hRSF8a6JWIPw==
+eslint-config-underdog@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-underdog/-/eslint-config-underdog-3.3.1.tgz#47517a511a0c8f643443b1770ec1719546d98729"
+  integrity sha512-7vTnU7VXMjEZsZoYueuWZDtSIZcyXYFZxKae1yDgp110ey0H0xk9Cdh88Wnhnu8R3pl3hDQd61Cz1i4PivYrtA==
   dependencies:
-    eslint-plugin-react "^7.7.0"
+    eslint-plugin-react "^7.11.1"
 
 eslint-loader@2.1.1:
   version "2.1.1"
@@ -3085,7 +3085,7 @@ eslint-loader@2.1.1:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin-react@7.11.1, eslint-plugin-react@^7.7.0:
+eslint-plugin-react@7.11.1, eslint-plugin-react@^7.11.1:
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.11.1.tgz#c01a7af6f17519457d6116aa94fc6d2ccad5443c"
   integrity sha512-cVVyMadRyW7qsIUh3FHp3u6QHNhOgVrLQYdQEB1bPWBsgbNCHdFAeNMquBMCcZJu59eNthX053L70l7gRt4SCw==
